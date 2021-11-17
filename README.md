@@ -1,2 +1,2 @@
 # stoehr-homestead
-homestead blog
+homestead blog application
