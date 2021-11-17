@@ -23,8 +23,10 @@ if(localStorage.token){
 export default function App() {
     return (
         <ComingSoon />
+
         // <Router>
         //     <Navbar />
+
         //     <Switch>
         //         <Route exact path="/" component={Home} />
         //         <Route path="/register" component={Register} />
