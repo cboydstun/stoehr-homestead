@@ -1,12 +1,12 @@
 //import dependencies
-const express = require('express')
+import express from 'express'
 const router = express.Router()
 
 //import blog model
-import Blog from '../models/Blog'
+import Blog from '../models/Blog.js'
 
 //import auth middleware
-import auth from '../middleware/auth'
+import auth from '../middleware/auth.js'
 
 //@GET - /api/blogs - get all blogs
 router.get('/', async (req, res) => {
