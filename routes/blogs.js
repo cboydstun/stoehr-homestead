@@ -3,7 +3,7 @@ const express = require('express')
 const router = express.Router()
 
 //import blog model
-import Blog from '../models/blog'
+import Blog from '../models/Blog'
 
 //import auth middleware
 import auth from '../middleware/auth'
